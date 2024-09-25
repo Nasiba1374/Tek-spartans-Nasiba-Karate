@@ -6,11 +6,11 @@
     Scenario: Create new account
       Given url BASE_URL
       Given path "/api/accounts/add-primary-account"
-      * def email = "nasiba.111@tekschool.us"
+      * def email = "nasiba.98765@tekschool.us"
       Given request
         """
         {
-          "email": "asiba.111@tekschool.us",
+          "email": "nasiba.98765@tekschool.us",
           "firstName": "Nasiba",
           "lastName": "Mehr",
           "title": "Ms.",

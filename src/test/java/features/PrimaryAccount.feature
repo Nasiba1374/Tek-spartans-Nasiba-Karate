@@ -4,11 +4,11 @@ Feature:Send request
 
 Given url BASE_URL
     Given path "/api/accounts/add-primary-account/"
-    * def email = "nasiba.222@tekschool.us"
+    * def email = "nasiba.76032985@tekschool.us"
     Given request
       """
       {
-        "email": "asiba.222@tekschool.us",
+        "email": "nasiba.76032985@tekschool.us",
         "firstName": "Nasib",
         "lastName": "Mehra",
         "title": "Ms.",
